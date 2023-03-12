@@ -2,6 +2,7 @@
 public class Variables {
     
     public static void main(String args[]){
+        
         //Definimos la Variable 
          int miVariableEntera = 10;
         
@@ -24,6 +25,16 @@ public class Variables {
         
         var miVariableCadena2 = "Goodbye";
         System.out.println(miVariableCadena2);
+        
+        //Reglas en variables
+        //Valores permitidos en el nombre de nuestras variables
+        
+        var _miVariable = 3;
+        var miVariable = 2;
+        var $miVariable = 10;
+        
+        
+        
         
     }
 }
