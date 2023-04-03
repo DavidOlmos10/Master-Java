@@ -15,7 +15,8 @@ public class Sentencia_If {
         
         if(numero == 1){
             numeroTexto = "Numero uno";
-        }else if(numero == 2){
+        }
+        else if(numero == 2){
             numeroTexto = "Numero dos";
         }
         else if(numero == 3){
@@ -23,10 +24,12 @@ public class Sentencia_If {
         }
         else if(numero == 4){
             numeroTexto = "Numero cuatro";
-        }else{
+        }
+        else{
             numeroTexto = "Numero no encontradp";
         }
         
         System.out.println("numeroTexto = " + numeroTexto);
     }
+    
 }
