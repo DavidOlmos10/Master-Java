@@ -2,7 +2,7 @@
 public class Switch {
 
     public static void main(String args[]) {
-        var numero = 9;
+        var numero = 2;
         var numeroTexto = "Valor desconocido";
 
         switch (numero) {
