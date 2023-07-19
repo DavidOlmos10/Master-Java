@@ -7,6 +7,18 @@ public class Aritmetica {
     int a;
     int b;
     
+    //Constructor vacio
+    public Aritmetica(){
+        System.out.println("Ejecutando prueba de constructor");
+    }
+    
+    // Agregamos el segundo constructor
+    public Aritmetica(int a, int b){
+       this.a = a;
+       this.b = b;
+        System.out.println("Ejecutando segundo constructor");
+    }
+    
     //Definimos el metodo
     
     public void sumar(){
